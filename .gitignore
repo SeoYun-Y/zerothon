@@ -1,0 +1,31 @@
+# 🔥 Firebase 비공개 키 파일 (절대 올리지 말기!)
+firebase_credentials.json
+
+# 🐍 Python 관련
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# 🧪 가상환경
+.env
+env/
+venv/
+ENV/
+.venv/
+
+# 🧪 Pytest / Mypy / Coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ⚙️ VS Code 설정
+.vscode/
+
+# 📸 업로드한 이미지 파일 (개발 중 테스트용)
+*.jpg
+*.jpeg
+*.png
