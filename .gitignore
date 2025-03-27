@@ -1,31 +1,37 @@
-# 🔥 Firebase 비공개 키 파일 (절대 올리지 말기!)
+# Node.js
+node_modules/
+
+# Firebase 인증 파일 (비공개 키)
 firebase_credentials.json
 
-# 🐍 Python 관련
-__pycache__/
-*.py[cod]
-*.egg-info/
-dist/
-build/
+# 로그 파일
+*.log
 
-# 🧪 가상환경
+# 환경변수 파일 (dotenv 파일)
 .env
-env/
-venv/
-ENV/
-.venv/
 
-# 🧪 Pytest / Mypy / Coverage
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage.xml
-htmlcov/
-
-# ⚙️ VS Code 설정
+# VS Code 설정
 .vscode/
 
-# 📸 업로드한 이미지 파일 (개발 중 테스트용)
-*.jpg
-*.jpeg
-*.png
+# 운영체제 관련 파일
+.DS_Store
+Thumbs.db
+
+# Firebase 관련 파일 (실수로 push하지 않도록)
+firebase-adminsdk-*.json
+
+# 테스트 관련 (JUnit, Mocha 등)
+test-results/
+
+# 빌드 결과물
+build/
+dist/
+
+# 기타
+*.tgz
+*.bak
+*.swp
+
+# gitignore에 zerothonmobile 폴더 추가
+zerothonmobile/
+
